@@ -4,7 +4,7 @@ description: |
   It helps manage state, actions, and effects in a predictable and modular way, allowing for a declarative
   approach to building applications. This package is ideal for developers familiar with TCA in Swift and
   looking for a similar pattern in Flutter.
-version: 0.0.1
+version: 1.0.0
 repository: https://github.com/kmatsushita1012/flutter_tca
 homepage: https://master.d2p6lwu2ojgxks.amplifyapp.com/
 

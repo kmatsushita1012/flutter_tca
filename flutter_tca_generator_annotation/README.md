@@ -1,39 +1,19 @@
-<!--
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
+# flutter_tca_generator
 
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/tools/pub/writing-package-pages).
-
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/to/develop-packages).
--->
-
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+`flutter_tca_generator` is a Flutter library that brings a TCA-like (The Composable Architecture) approach to Flutter apps. It provides an easy-to-use framework for managing state in a declarative and modular way, inspired by TCA from Swift, enabling a clean, predictable, and testable architecture for your Flutter applications.
 
 ## Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+- **Modular Architecture**: Split your app into small, reusable pieces (state, actions, reducers).
+- **State Management**: Provides a powerful, centralized approach to managing app state.
+- **Declarative UI**: Update your UI declaratively based on state, making it easy to manage complex UIs.
+- **Testable**: Easily test individual components of your app.
 
-## Getting started
+## Installation
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+Add the following to your `pubspec.yaml` file:
 
-## Usage
-
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
-
-```dart
-const like = 'sample';
+```yaml
+dependencies:
+  flutter_tca_generator: ^1.0.0
 ```
-
-## Additional information
-
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
