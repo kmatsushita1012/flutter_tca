@@ -1,0 +1,17 @@
+targets:
+  $default:
+    builders:
+      flutter_tca_generator:
+        generate_for:
+          include:
+            - lib/**/*.dart
+            - test/**/*.dart
+        options:
+          enableFlutter: true
+
+builders:
+  flutter_tca_generator:
+    import: "package:flutter_tca_generator/flutter_tca_generator.dart"
+    builder_factories: ["tcaStateGenerator"]
+    build_extensions: { ".dart": [".tca.dart"] }
+    build_to: source

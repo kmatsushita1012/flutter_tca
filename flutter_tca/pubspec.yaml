@@ -1,0 +1,22 @@
+name: flutter_tca
+description: |
+  A Flutter package that provides a Swift-like implementation of The Composable Architecture (TCA).
+  It helps manage state, actions, and effects in a predictable and modular way, allowing for a declarative
+  approach to building applications. This package is ideal for developers familiar with TCA in Swift and
+  looking for a similar pattern in Flutter.
+version: 1.0.3
+repository: https://github.com/kmatsushita1012/flutter_tca
+homepage: https://master.d2p6lwu2ojgxks.amplifyapp.com/
+environment:
+  sdk: ^3.7.2
+  flutter: ">=3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_riverpod: ^2.6.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0

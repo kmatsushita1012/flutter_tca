@@ -1,0 +1,27 @@
+name: flutter_tca_generator
+description: |
+  A Flutter library that provides a simple and efficient way to implement The Composable Architecture (TCA)-like architecture in Flutter apps.
+  This package simplifies state management by using a declarative and modular approach, inspired by TCA from Swift.
+version: 1.0.1
+homepage: https://master.d2p6lwu2ojgxks.amplifyapp.com/
+repository: https://github.com/kmatsushita1012/flutter_tca_generator
+
+environment:
+  sdk: ^3.7.2
+  flutter: ">=3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  analyzer: ^7.3.0
+  build: ^2.4.2
+  # flutter_tca:
+  #   path: ../flutter_tca
+  flutter_tca_generator_annotation: 
+  source_gen: ^2.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  build_runner: ^2.4.15
