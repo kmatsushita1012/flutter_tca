@@ -1,4 +1,6 @@
 name: flutter_tca_generator
+publish_to: "none"
+deprecated: "This package is no longer maintained."
 description: |
   A Flutter library that provides a simple and efficient way to implement The Composable Architecture (TCA)-like architecture in Flutter apps.
   This package simplifies state management by using a declarative and modular approach, inspired by TCA from Swift.
