@@ -1,4 +1,6 @@
 name: flutter_tca_generator_annotation
+publish_to: "none"
+deprecated: "This package is no longer maintained."
 description: |
   A Flutter package that provides a Swift-like implementation of The Composable Architecture (TCA).
   It helps manage state, actions, and effects in a predictable and modular way, allowing for a declarative
